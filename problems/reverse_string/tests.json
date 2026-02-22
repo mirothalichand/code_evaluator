@@ -1,0 +1,10 @@
+[
+    {"name": "normal_word", "input": ["hello"], "expected": "olleh"},
+    {"name": "single_char", "input": ["a"], "expected": "a"},
+    {"name": "empty_string", "input": [""], "expected": ""},
+    {"name": "palindrome", "input": ["madam"], "expected": "madam"},
+    {"name": "with_spaces", "input": ["hello world"], "expected": "dlrow olleh"},
+    {"name": "numeric_string", "input": ["12345"], "expected": "54321"},
+    {"name": "special_chars", "input": ["!@#"], "expected": "#@!"},
+    {"name": "mixed_case", "input": ["AbC"], "expected": "CbA"}
+]

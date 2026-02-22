@@ -1,0 +1,14 @@
+Problem: Fibonacci
+
+Write a function:
+
+    def fib(n: int) -> int:
+
+Return the nth Fibonacci number.
+
+Definition:
+fib(0) = 0
+fib(1) = 1
+fib(n) = fib(n-1) + fib(n-2) for n >= 2
+
+If n < 0, return -1.

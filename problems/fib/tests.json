@@ -1,0 +1,12 @@
+[
+  {"name": "zero", "input": [0], "expected": 0},
+  {"name": "one", "input": [1], "expected": 1},
+  {"name": "two", "input": [2], "expected": 1},
+  {"name": "five", "input": [5], "expected": 5},
+  {"name": "ten", "input": [10], "expected": 55},
+  {"name": "fifteen", "input": [15], "expected": 610},
+  {"name": "twenty", "input": [20], "expected": 6765},
+  {"name": "negative", "input": [-3], "expected": -1},
+  {"name": "large_25", "input": [25], "expected": 75025},
+  {"name": "large_30", "input": [30], "expected": 832040}
+]

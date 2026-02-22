@@ -1,0 +1,12 @@
+Problem: Two Sum
+
+Write a function:
+
+    def two_sum(nums: list[int], target: int) -> tuple:
+
+Return the indices of two numbers in the list such that they add up to target.
+
+Assume exactly one solution exists.
+
+Return indices as a tuple (i, j).
+Order does not matter.

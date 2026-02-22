@@ -1,0 +1,14 @@
+Problem: Count Connected Components
+
+Write a function:
+
+    def count_components(n: int, edges: list[list[int]]) -> int:
+
+There are n nodes labeled from 0 to n - 1.
+
+Given a list of undirected edges, return the number of connected components.
+
+Constraints:
+- 0 <= n
+- edges may be empty
+- Graph is undirected

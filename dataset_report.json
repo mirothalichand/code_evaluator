@@ -1,0 +1,56 @@
+{
+    "total_submissions": 9,
+    "results": [
+        {
+            "file": "test6.py",
+            "problem": "armstrong_number",
+            "score": 7.38
+        },
+        {
+            "file": "test8.py",
+            "problem": "prime_number",
+            "score": 6.25
+        },
+        {
+            "file": "test5.py",
+            "problem": "armstrong_number",
+            "score": 7.38
+        },
+        {
+            "file": "test2.py",
+            "problem": "reverse_string",
+            "score": 5.62
+        },
+        {
+            "file": "test3.py",
+            "problem": "reverse_string",
+            "score": 2.88
+        },
+        {
+            "file": "test1.py",
+            "problem": "reverse_string",
+            "score": 5.62
+        },
+        {
+            "file": "test4.py",
+            "problem": "armstrong_number",
+            "score": 7.25
+        },
+        {
+            "file": "test7.py",
+            "problem": "prime_number",
+            "score": 10.0
+        },
+        {
+            "file": "test9.py",
+            "problem": "prime_number",
+            "score": 8.25
+        }
+    ],
+    "dataset_metrics": {
+        "mae": 2.874,
+        "agreement_rate": 0.111,
+        "mean_score": 6.737,
+        "std_score": 1.989
+    }
+}

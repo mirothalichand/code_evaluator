@@ -1,0 +1,10 @@
+[
+    {"name": "armstrong_153", "input": [153], "expected": true},
+    {"name": "armstrong_370", "input": [370], "expected": true},
+    {"name": "armstrong_9474", "input": [9474], "expected": true},
+    {"name": "non_armstrong", "input": [123], "expected": false},
+    {"name": "single_digit", "input": [7], "expected": true},
+    {"name": "zero_case", "input": [0], "expected": true},
+    {"name": "large_non_armstrong", "input": [9475], "expected": false},
+    {"name": "two_digit", "input": [10], "expected": false}
+]

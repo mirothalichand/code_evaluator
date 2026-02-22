@@ -1,0 +1,12 @@
+[
+  {"name": "no_edges", "input": [5, []], "expected": 5},
+  {"name": "single_component", "input": [5, [[0,1],[1,2],[2,3],[3,4]]], "expected": 1},
+  {"name": "two_components", "input": [5, [[0,1],[2,3]]], "expected": 3},
+  {"name": "isolated_nodes", "input": [3, []], "expected": 3},
+  {"name": "cycle", "input": [4, [[0,1],[1,2],[2,3],[3,0]]], "expected": 1},
+  {"name": "disconnected_pairs", "input": [6, [[0,1],[2,3],[4,5]]], "expected": 3},
+  {"name": "single_node", "input": [1, []], "expected": 1},
+  {"name": "empty_graph", "input": [0, []], "expected": 0},
+  {"name": "complex_case", "input": [7, [[0,1],[1,2],[3,4],[5,6]]], "expected": 3},
+  {"name": "large_chain", "input": [8, [[0,1],[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]], "expected": 1}
+]

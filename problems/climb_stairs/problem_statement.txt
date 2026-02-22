@@ -1,0 +1,14 @@
+Problem: Climbing Stairs
+
+Write a function:
+
+    def climb_stairs(n: int) -> int:
+
+You are climbing a staircase with n steps.
+
+Each time you can climb either 1 step or 2 steps.
+
+Return the number of distinct ways to reach the top.
+
+If n < 0, return 0.
+If n == 0, return 1.

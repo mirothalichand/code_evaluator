@@ -1,0 +1,12 @@
+[
+  {"name": "empty", "input": [""], "expected": true},
+  {"name": "simple_valid", "input": ["()"], "expected": true},
+  {"name": "simple_invalid", "input": ["(]"], "expected": false},
+  {"name": "nested_valid", "input": ["({[]})"], "expected": true},
+  {"name": "wrong_order", "input": ["([)]"], "expected": false},
+  {"name": "multiple_valid", "input": ["()[]{}"], "expected": true},
+  {"name": "missing_closing", "input": ["((("], "expected": false},
+  {"name": "missing_opening", "input": [")"], "expected": false},
+  {"name": "complex_valid", "input": ["{[()()]}"], "expected": true},
+  {"name": "complex_invalid", "input": ["{[(])}"], "expected": false}
+]
