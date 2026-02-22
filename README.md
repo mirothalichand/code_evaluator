@@ -22,7 +22,7 @@ git clone <PRIVATE_REPO_URL>
 cd code_evaluator
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 ```
 pip install -r requirements.txt
 ```
@@ -69,6 +69,7 @@ Each problem contains 5-10 tests.
 - Agreement rate
 - Mean score
 - Standard deviation
+
 
 
 
