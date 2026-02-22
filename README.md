@@ -19,17 +19,22 @@ This project implements an automated AI-assisted code evaluation pipeline suppor
 
 ```bash
 git clone <PRIVATE_REPO_URL>
-cd ai-code-evaluator
+cd code_evaluator
+```
 
 ###2. Install dependencies
+```
 pip install -r requirements.txt
-
+```
 -Run Single Submission
+
+```
 python evaluate.py submissions/fib_1.py
-
+```
 -Run Dataset Evaluation
+```
 python dataset_evaluator.py
-
+```
 This will:
 
 -Evaluate all submissions in /submissions
@@ -64,4 +69,5 @@ Each problem contains 5-10 tests.
 -Mean Absolute Error (MAE)
 -Agreement rate
 -Mean score
+
 -Standard deviation
