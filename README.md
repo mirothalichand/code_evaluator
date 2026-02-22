@@ -26,12 +26,12 @@ cd code_evaluator
 ```
 pip install -r requirements.txt
 ```
--Run Single Submission
+- Run Single Submission
 
 ```
 python evaluate.py submissions/fib_1.py
 ```
--Run Dataset Evaluation
+- Run Dataset Evaluation
 ```
 python dataset_evaluator.py
 ```
@@ -41,7 +41,7 @@ This will:
 2. Compute MAE and agreement rate
 3. Save dataset_report.json
 
-##Problem Categories
+## Problem Categories
 
 The system evaluates 5 problems:
 
@@ -64,10 +64,11 @@ Each problem contains 5-10 tests.
 - Deterministic consistency check
 - Dataset-level grading accuracy metrics
 
-##Dataset Metrics
+## Dataset Metrics
 - Mean Absolute Error (MAE)
 - Agreement rate
 - Mean score
 - Standard deviation
+
 
 
