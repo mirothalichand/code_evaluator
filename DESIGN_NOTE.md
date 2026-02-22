@@ -1,13 +1,8 @@
-
-Use this professional version:
-
----
-
-## DESIGN_NOTE.md (Paste This)
+## DESIGN_NOTE.md
 
 ```markdown
 # Design Note – AI Code Evaluation System
-
+```
 ## 1. Overview
 
 This system implements a hybrid automated grading pipeline combining deterministic evaluation with LLM-assisted reasoning. The design ensures reliability, explainability, and measurable grading performance.
@@ -20,8 +15,6 @@ The system evaluates 5 problem categories:
 - Graphs-lite
 
 A total of 50 test cases are distributed across the problems, and 40 diverse submission variants are used for dataset evaluation.
-
----
 
 ## 2. System Architecture
 
@@ -94,5 +87,6 @@ LLM output does not directly modify numeric score. It enhances qualitative feedb
 ---
 
 ## 6. Conclusion
+
 
 This design demonstrates a robust, explainable, and scalable AI-assisted grading pipeline aligned with the assignment requirements.
