@@ -1,7 +1,7 @@
 ## DESIGN_NOTE.md
 
 ```markdown
-# Design Note – AI Code Evaluation System
+# Design Note – Code Evaluation with AI feedback
 ```
 ## 1. Overview
 
@@ -89,4 +89,5 @@ LLM output does not directly modify numeric score. It enhances qualitative feedb
 ## 6. Conclusion
 
 
-This design demonstrates a robust, explainable, and scalable AI-assisted grading pipeline aligned with the assignment requirements.
+This design demonstrates a robust, explainable, and scalable AI-assisted grading pipeline.
+
