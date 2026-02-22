@@ -55,18 +55,19 @@ Each problem contains 5-10 tests.
 
 ## Evaluation Features
 
-**Unit test execution (sandboxed + timeout)
-**Static analysis (ruff)
-**Complexity detection
-**LLM feedback (Qwen open-source model)
-**Uncertainty flags
-**Hallucination detection
-**Deterministic consistency check
-**Dataset-level grading accuracy metrics
+- Unit test execution (sandboxed + timeout)
+- Static analysis (ruff)
+- Complexity detection
+- LLM feedback (Qwen open-source model)
+- Uncertainty flags
+- Hallucination detection
+- Deterministic consistency check
+- Dataset-level grading accuracy metrics
 
 ##Dataset Metrics
--Mean Absolute Error (MAE)
--Agreement rate
--Mean score
--Standard deviation
+- Mean Absolute Error (MAE)
+- Agreement rate
+- Mean score
+- Standard deviation
+
 
